@@ -14,24 +14,24 @@ public class PersonService {
 		Person p = new Person();
 		p.setId("1");
 		p.setAge(21);
-		p.setFirstName("Christophe");
-		p.setLastName("Labarere");
+		p.setFirstName("User1");
+		p.setLastName("********");
 		
 		persons.put("1", p);
 		
 		p = new Person();
 		p.setId("2");
 		p.setAge(21);
-		p.setFirstName("Phil");
-		p.setLastName("Peichel");
+		p.setFirstName("User2");
+		p.setLastName("********");
 
 		persons.put("2", p);
 
 		p = new Person();
 		p.setId("3");
 		p.setAge(21);
-		p.setFirstName("Dave");
-		p.setLastName("Greening");
+		p.setFirstName("User3");
+		p.setLastName("********");
 
 		persons.put("3", p);
 
